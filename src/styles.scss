@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+$primary-color: rgb(91, 212, 91);
+
+ body{
+    padding-top: 80px;
+ }
+
+ .navbar-light .navbar-brand {
+   color: $primary-color;
+}
+
+.list-group-item.active {
+   background-color:$primary-color;
+   border-color:$primary-color;
+}
+
+.fixed-top {
+  border-bottom: 2px solid #ced4da;
+}
+
+.btn-primary {
+   background-color: $primary-color;
+   border-color: $primary-color;
+}
+
+.btn-secondary {
+   background-color: $primary-color;
+   border-color: $primary-color;
+}
